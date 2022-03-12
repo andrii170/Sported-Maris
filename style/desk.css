@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(0, 163, 0);
+    color: white;
+}
+#intestazione {
+    text-align: center;
+    font-size: 15px;
+    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px black;
+    height: 85px;
+}
+.logo#logo-sported {
+    height: 60px;
+    float: left;
+}
+.logo#tso_home{
+    float: right;
+    height: 20px;
+    padding-bottom: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.colonna {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    color: black; 
+    margin: 5px; 
+}
+.colonna#menu {
+    width: 25%; 
+    padding: 0px;
+    border-radius: 10px;
+}
+.colonna#spazio{
+    width: 50%;
+    background-color: white;
+}
+.colonna#sponsor{
+    width: 20%;
+    background-color: white;
+    margin-right: 15px;
+}
+.colonna-info{
+    width: 40%;
+    margin-right: 15px;
+}
+#btmenu{
+    width: 100%;
+    box-shadow: 0px 5px 10px black;
+}
+.menu#luogo {
+    font-size: 15px;
+}
+.colonna-info {
+    float: left;
+    padding: 7px;
+    text-align: center;
+    color: black; 
+    margin: 5px; 
+}
+.colonna-info#luogo {
+    margin-left: 35px;
+}
